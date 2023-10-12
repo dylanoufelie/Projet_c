@@ -1,0 +1,7 @@
+﻿  model.c
+C:\Esiea\3A\ProjetC\reboot4\ProjetC_oleil\ProjetC_oleil\source_code\model\model.c(26,28): warning C4047: '=' : les niveaux d'indirection de 'char' et de 'char [2]' sont différents
+C:\Esiea\3A\ProjetC\reboot4\ProjetC_oleil\ProjetC_oleil\source_code\model\model.c(139,9): warning C4550: l'expression évalue une fonction dans laquelle manque une liste d'arguments
+C:\Esiea\3A\ProjetC\reboot4\ProjetC_oleil\ProjetC_oleil\source_code\model\model.c(153,32): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Esiea\3A\ProjetC\reboot4\ProjetC_oleil\ProjetC_oleil\source_code\model\model.c(159,88): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+C:\Esiea\3A\ProjetC\reboot4\ProjetC_oleil\ProjetC_oleil\source_code\model\model.c(160,88): warning C4244: '=' : conversion de 'double' en 'int', perte possible de données
+  ProjetC_oleil.vcxproj -> C:\Esiea\3A\ProjetC\reboot4\ProjetC_oleil\ProjetC_oleil\x64\Debug\ProjetC_oleil.exe
