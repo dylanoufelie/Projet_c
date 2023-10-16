@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Fichiers sources\vue_controller">
+      <UniqueIdentifier>{d6fe9f4c-b0c6-4cd6-b1cf-ff0685d4f7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\vue_controller">
+      <UniqueIdentifier>{bc61d366-62d6-4534-bba9-d5980b816bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\model">
+      <UniqueIdentifier>{1a759ce7-673b-4c52-b3ce-22965264abd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\model">
+      <UniqueIdentifier>{1ad580f0-05ec-48f1-8b21-6401c024ca43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source_code\main.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="source_code\vue_controller\vue_controller.c">
+      <Filter>Fichiers sources\vue_controller</Filter>
+    </ClCompile>
+    <ClCompile Include="source_code\model\model.c">
+      <Filter>Fichiers sources\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsLibraries\SDL2_gfx\SDL2_gfxPrimitives.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\vsLibraries\SDL2_gfx\SDL2_rotozoom.c">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source_code\model\model.h">
+      <Filter>Fichiers d%27en-tête\model</Filter>
+    </ClInclude>
+    <ClInclude Include="source_code\vue_controller\vue_controller.h">
+      <Filter>Fichiers d%27en-tête\vue_controller</Filter>
+    </ClInclude>
+    <ClInclude Include="..\SDL2\SDL2_gfx-1.0.4\SDL2_rotozoom.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsLibraries\SDL2_gfx\SDL2_gfxPrimitives.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\vsLibraries\SDL2_gfx\SDL2_rotozoom.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
